@@ -89,7 +89,7 @@
 
             if (mysqli_stmt_num_rows($stmt) > 0) {
                 $_SESSION['email'] = $email;
-                echo '<script>alert("Log-In Successfuly"); window.location.href="dashboard.php";</script>';
+                echo '<script>alert("Log-In Successfuly"); window.location.href="dashboard.php";</script>'
                 exit;
             } else {
                 $error = "Invalid credentials";

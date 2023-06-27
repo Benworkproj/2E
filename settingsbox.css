@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5.5%;
+    
+  }
+  
+  .cardrec {
+    width: 800px;
+    height: 700px;
+    margin-top: 5%;
+    border-radius: 30px;
+    background: #ffffff18;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  }
+  
+  .settingsbox {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 196px;
+    
+  }
+  
+  .settingsbox input {
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1.25em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+  }
+  
+  .settingsbox span {
+    position: absolute;
+    left: 0;
+    padding: 20px 10px 10px;
+    font-size: 1.25em;
+    color: #6834d4;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    pointer-events: none;
+  }
+  
+  .settingsbox input:valid ~ span,
+  .settingsbox input:focus ~ span {
+    color: #6834d4;
+    transform: translateX(-10px) translateY(-34px);
+    font-size: 1.25em;
+  }
+  
+  .settingsbox i {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #6d45ff;
+    border-radius: 4px;
+    transition: 0.5s;
+    pointer-events: none;
+    z-index: 9;
+  }
+  
+  .settingsbox input:valid ~ i,
+  .settingsbox input:focus ~ i {
+    height: 44px;
+  }
+  
+  .radio-input {
+    margin-left: 100%;
+  }
+
+  .radio-input input {
+    display: none;
+  }
+  
+  .radio-input {
+    --container_width: 200px;
+    margin-left: 100%;
+    margin-top: 10%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #6d45ff;
+    color: #ffffff;
+    width: var(--container_width);
+    overflow: hidden;
+    border: 1px solid rgba(53, 52, 52, 0.226);
+  }
+  
+  .radio-input label {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-weight: 600;
+    letter-spacing: -1px;
+    font-size: 14px;
+  }
+  
+  .selection {
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: calc(var(--container_width) / 3);
+    z-index: 0;
+    left: 0;
+    top: 0;
+    transition: .15s ease;
+  }
+  
+  .radio-input label:has(input:checked) {
+    color: #7328ff;
+  }
+  
+  .radio-input label:has(input:checked) ~ .selection {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+  }
+  
+  .radio-input label:nth-child(1):has(input:checked) ~ .selection {
+    transform: translateX(calc(var(--container_width) * 0/3));
+  }
+  
+  .radio-input label:nth-child(2):has(input:checked) ~ .selection {
+    transform: translateX(calc(var(--container_width) * 1/3));
+  }
+  
+  .radio-input label:nth-child(3):has(input:checked) ~ .selection {
+    transform: translateX(calc(var(--container_width) * 2/3));
+  }
+
+  

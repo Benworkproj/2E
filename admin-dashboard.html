@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="admin.css">
+  <title>Home</title>
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="../VCP/admin-dashboard.html"><h1><span>A</span>lumni <span>S</span>phere</h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <nav>
+            <ul>
+              <li><a href="#Home" data-after="Home">Home</a></li>
+              <li><a href="#Connection" data-after="Connection">Connection</a></li>
+              <li><a href="#Management" data-after="Management">Management</a></li>
+              <li><a href="../VCP/adminset/adminsettings.php" data-after="Setting">Settings</a></li>
+              <li><a href="../VCP/login.html" data-after="Logout">Logout</a></li>
+            </ul>
+         </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+  <section id="Home">
+
+  
+  <script>
+    // Add a click event listener to the "Home" link
+    document.querySelector('a[href="#Home"]').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default link behavior
+        const homeSection = document.getElementById('Home'); // Get the Home section element
+        homeSection.scrollIntoView({ behavior: 'smooth' }); // Scroll smoothly to the Home section
+    });
+</script>
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Welcome <span></span></h1>
+        <h1>back,  <span></span></h1>
+        <h1>Admin! <span></span></h1>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+
+
+  <!-- End Footer -->
+  <script src="app.js"></script>
+</body>
+</html>

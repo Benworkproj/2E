@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="udash.css">
+  <link rel="stylesheet" href="aboutus.css">
+  <title>AlumniSphere</title>
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="../VCP/user-dashboard.html"><h1><span>A</span>lumni <span>S</span>phere</h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <nav>
+            <ul>
+              <li><a href="#Home" data-after="Home">Home</a></li>
+              <li><a href="#Connection" data-after="Connection">Connection</a></li>
+              <li><a href="#Management" data-after="Management">Management</a></li>
+              <li><a href="settings.php" data-after="Setting">Settings</a></li>
+              <li><a href="../VCP/login.html" data-after="Logout">Logout</a></li>
+            </ul>
+         </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+  <section id="Home">
+
+  
+  <script>
+    // Add a click event listener to the "Home" link
+    document.querySelector('a[href="#Home"]').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default link behavior
+        const homeSection = document.getElementById('Home'); // Get the Home section element
+        homeSection.scrollIntoView({ behavior: 'smooth' }); // Scroll smoothly to the Home section
+    });
+</script>
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Sharing Knowledge. <span></span></h1>
+        <h1>Sharing Experience.  <span></span></h1>
+        <h1>Sharing Success. <span></span></h1>
+        <a href="#aboutus" type="button" class="cta">About Us</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!--  About Us -->
+  <section id="aboutus">
+        <div class="container">
+          <h1 class="heading">About Us</h1>
+          <div class="cardBox cardBox1">
+            <div class="card card1">
+              <div class="h4">Mission</div>
+            
+              <div class="content">
+                <div class="h3">Mission</div>
+                <p>To connect alumni from all over the world and create a community where they can share ideas, learn from each other, and support each other's success.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardBox cardBox2">
+            <div class="card card2">
+              <div class="h4">Vision</div>
+            
+              <div class="content">
+                <div class="h3">Vision</div>
+                <p>To be the leading global platform for alumni connections, helping alumni to build stronger relationships, advance their careers, and make a positive impact on the world.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardBox CardBox3">
+            <div class="card card3">
+              <div class="h4">Goal</div>
+            
+              <div class="content">
+                <div class="h3">Goal</div>
+                <p>To provide alumni with the resources and opportunities they need to make a positive impact on the world.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!-- End About Section -->
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="footer container">
+        <div class="brand"><h1><span>A</span>LUMNI <span>S</span>PHERE</h1></div>
+        <h2>a sphere of alumni connections</h2>
+        <p>Copyright © 2023 AlumniSphere. All rights reserved</p>
+      </div>
+    </section>
+    <!-- End Footer -->
+
+    <script>
+      
+    </script>
+
+    
+    <script src="./app.js"></script>
+  </body>
+  </html>

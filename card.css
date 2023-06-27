@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #190130;
+  }
+  
+  .card {
+    width: 500px;
+    height: 750px;
+    border-radius: 30px;
+    background: #240046;
+    box-shadow: 15px 15px 30px rgb(115, 24, 235),
+                -15px -15px 30px rgb(153, 50, 236);
+  }

@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}.inner_nav{
+    margin-left:auto;
+     display: flex;
+     gap:20px;
+    }.div1{
+        display:block;
+        text-align: center;
+        color:white;
+    }nav{
+        display: flex;
+        background-color: green;
+        padding:10px;
+        box-shadow:3px 3px 10px black;
+      position: absolute;
+    TOP:0;
+    width: 100%;
+    
+    }.gender{
+     display: flex;  
+   
+    }.inner-body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }#a{
+        width: 30vw;
+        padding: 5px ;
+    }button{
+      float: right;
+      width: 15vw;
+      padding:5px;
+      border-radius: 5px;
+      color:white;
+      background: green;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+    }

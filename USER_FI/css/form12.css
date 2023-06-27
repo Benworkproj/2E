@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+}.inner_nav{
+    margin-left:auto;
+     display: flex;
+     gap:20px;
+    }.div1{
+        display:block;
+        text-align: center;
+        color:white;
+    }nav{
+        display: flex;
+        background-color: green;
+        padding:10px;
+        box-shadow:3px 3px 10px black;
+      position: absolute;
+    TOP:0;
+    width: 100%;
+    z-index: 1;
+    }h1{
+        text-align: center;
+    }.inner{
+        width: 80%;
+    }.inner-body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }h3{
+        font-size: 30px;
+    }

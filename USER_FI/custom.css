@@ -1,0 +1,50 @@
+
+.nav-item a:hover{
+    background-color: green;
+}
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+  }
+.homepage{
+    background-color: red;
+    background-image: url('../images/homepage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: 250px; */
+    padding-block: 12%;
+    background-position: center;
+}
+
+.homepage h1{
+    letter-spacing: 3px;
+}
+
+.card-body{
+    color: black;
+}
+
+.tags {
+    background-color: hsla(210, 1%, 39%, 0.235);
+}
+
+.login-text{
+    margin-inline-end: 6em;
+}
+
+/* .homepage .search{
+    font-size: 1.5rem;
+} */
+
+/* .nav-right{
+    clip-path: polygon(0% 1.85%, 77.28% 29.91%, 97.68% 100%, 0% 100%)   ;
+    clip-path: polygon(4.01% 2.59%, 75.9% 5.44%, 77.04% 7.24%, 78.73% 9.1%, 78.73% 82.02%, 78.73% 94.9%, 75.9% 100%, 69.87% 96.76%, 48.33% 33.19%, 24.13% 23.99%, 10.04% 21.13%, 0% 14.8%, 0% 9.1%);
+} */
+

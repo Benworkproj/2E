@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}.div1{
+    display:block;
+    text-align: center;
+    color:white;
+}.inner_nav{
+    margin-left:auto;
+     display: flex;
+     gap:20px;
+    }nav{
+        display: flex;
+        background-color: green;
+        padding:10px;
+        box-shadow:3px 3px 10px black;
+      position: absolute;
+    TOP:0;
+    width: 100%;
+    
+    }h1{
+        COLOR:GREEN;
+        margin-left:50px;
+       
+    }.boxx{
+        display:flex;
+        justify-content: space-around;
+    }.box1{
+      
+        width:35vh;
+        height:auto;
+        border-radius: 10px;
+        padding:20px;
+        text-align: center;
+      background-color:#eeeeee;
+
+    }.a{
+        border-radius: 50%;
+    }
